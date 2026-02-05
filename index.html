@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Team 12A1 - Giới Thiệu Thành Viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="landing-page">
+        <button id="start-btn">Bắt đầu tìm hiểu Team</button>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <div class="carousel-container">
+            <div class="slider" id="slider">
+                </div>
+            
+            <button class="nav-btn left" onclick="move(-1)">&#10094;</button>
+            <button class="nav-btn right" onclick="move(1)">&#10095;</button>
+        </div>
+        
+        <div id="description-container">
+            <p id="member-desc" class="fade-in"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
